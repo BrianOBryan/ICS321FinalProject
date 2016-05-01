@@ -1,0 +1,56 @@
+.container .new_posting #posting_textarea{
+	width: 300px;
+	height: 120px;
+	resize: none;
+}
+
+
+.bgCover { background:#000; position:absolute; left:0; top:0; display:none; overflow:hidden }
+
+.OverlayBox {
+    position:absolute;
+    display:none;
+    width:500px;
+    height:300px;
+    background:#fff;
+}
+
+.overlayContent {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+}
+
+#overlay_div { 
+height: 100%; 
+}
+
+.overlayContent #close_map_btn {
+    position: absolute;
+    top: 0px; 
+    right: 0px;
+}
+
+.container .posts .post {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.container .friend_content {
+    position: absolute;
+    left: 30px;
+    width: 300px;
+    top: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.container .new_posting {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
